@@ -1,15 +1,16 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/wdcd-front/.yarn/cache
+/wdcd-front/node_modules
+/wdcd-front/.pnp
+/wdcd-front/.pnp.js
 
 # testing
-/coverage
+/wdcd-front/coverage
 
 # production
-/build
+/wdcd-front/build
 
 # misc
 .DS_Store
