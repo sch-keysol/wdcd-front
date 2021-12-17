@@ -10,7 +10,7 @@ import {
 import { Link16 } from '@carbon/icons-react';
 
 const CommonFooter = () => (
-  <Grid>
+  <Grid fullWidth style={{ marginBottom: "2rem"}}>
       <Row>
           <Column sm={2} md={4} lg={6}>
           &copy; 2021 SCH KEYSOL. Some rights reserved.

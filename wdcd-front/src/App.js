@@ -7,6 +7,7 @@ import CommonFooter from './components/CommonFooter/CommonFooter';
 import LandingPage from './content/LandingPage';
 import NoticePage from './content/NoticePage';
 import License from './content/License';
+import EditArticle from './content/EditArticle';
 
 import './App.scss';
 
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/" element={<LandingPage />} />
           <Route path="/notice" element={<NoticePage />} />
           <Route path="/license" element={<License />} />
+          <Route path="/edit" element={<EditArticle />} />
         </Routes>
       </Content>
       <CommonFooter />
