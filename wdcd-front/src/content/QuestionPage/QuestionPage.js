@@ -6,12 +6,27 @@ import { Add16, Search16 } from '@carbon/icons-react';
 const rows = [
     {
         id: "00001",
-        name: "WDCD 오픈 예정 안내",
+        goodQuestion: "15",
+        status: "해결됨",
+        category: "JavaScript",
+        name: "React 설치 시 yarn 속도 저하 문제",
         date: "2021-12-17 오후 5시 32분"
     }
 ];
 
 const headers = [
+    {
+        key: "goodQuestion",
+        header: "추천 수"
+    },
+    {
+        key: "status",
+        header: "해결 여부"
+    },
+    {
+        key: "category",
+        header: "분류"
+    },
     {
         key: "name",
         header: "제목"
@@ -22,10 +37,10 @@ const headers = [
     },
 ];
 
-const NoticePage = ()  => {
+const QuestionPage = ()  => {
     return (
         <div>
-            <h2>공지사항</h2>
+            <h2>질문답변</h2>
             <div  style={{ margin: "2rem"}}>
             <DataTable rows={rows} headers={headers}>
                 {({ rows, headers, getTableProps, getHeaderProps, getRowProps }) => (
@@ -55,7 +70,7 @@ const NoticePage = ()  => {
             <Grid fullWidth>
                 <Row>
                     <Column>
-                        <Button renderIcon={Add16}>공지 등록하기</Button>
+                        <Button renderIcon={Add16}>질문 등록하기</Button>
                     </Column>
                     <Column style={{ textAlign: "end"}}>
                         <div style={{ display: "inline-block", width: "80%", marginRight: "0.5rem"}}>
@@ -72,4 +87,4 @@ const NoticePage = ()  => {
     );
 };
 
-export default NoticePage;
+export default QuestionPage;
