@@ -81,3 +81,12 @@ React 앱을 만들고 나면, 잘 작동하는지 시행해 보아야 할 때�
 
 > **주의**: `build` 폴더 안의 내용물을 Git에 올리지 마세요.
 
+## 오픈소스 라이선스
+> Open Source License
+
+본 프로젝트에서 사용한 오픈소스 프로젝트의 목록은 아래와 같습니다. 혹여 누락된 내용이 있다면 이슈 트래커 이용 부탁드립니다. 빠른 시일 내에 처리하도록 하겠습니다.
+
+- [React](https://ko.reactjs.org/) : MIT License [#](https://github.com/facebook/react/blob/main/LICENSE)
+- [Carbon Design System](https://www.carbondesignsystem.com): Apache 2.0 License [#](https://github.com/carbon-design-system/carbon/blob/main/LICENSE)
+- [Toast UI Editor](https://github.com/nhn/tui.editor): MIT License [#](https://github.com/nhn/tui.editor/blob/master/LICENSE)
+- [React Router](https://github.com/remix-run/react-router): MIT License [#](https://github.com/remix-run/react-router/blob/main/LICENSE.md)
