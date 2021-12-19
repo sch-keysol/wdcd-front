@@ -10,6 +10,7 @@ import License from './content/License';
 import EditArticle from './content/EditArticle';
 
 import './App.scss';
+import QuestionPage from './content/QuestionPage/QuestionPage';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/notice" element={<NoticePage />} />
           <Route path="/license" element={<License />} />
           <Route path="/edit" element={<EditArticle />} />
+          <Route path="/qna" element={<QuestionPage />} />
         </Routes>
       </Content>
       <CommonFooter />
